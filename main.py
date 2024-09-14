@@ -1,5 +1,5 @@
 import numpy as np
-from sys import argv
+import sys
 
 def readconfig():
     results = []
@@ -25,7 +25,11 @@ def writeresult(value):
 
 
 parameters = []
-parameters = readconfig()
+if len(sys.argv) > 1:
+    print(sys.argv)
+    parameters = sys.argv[1:7]
+else:
+    parameters = readconfig()
 
 n0, h, nk, a, b, c = int(parameters[0]), \
                      int(parameters[1]), \
