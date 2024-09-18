@@ -1,30 +1,39 @@
 import numpy as np
 import sys
+import csv
+
 
 def readconfig():
-    results = []
-    with open('config.csv', 'r') as fread:
-        text = fread.read()
-        for line in text.split('\n'):
-            items = line.split(';')
-            results.append(items)
-    return results[1]
+    rows = []
+    with open('config.csv', "r", newline='') as f_read:
+        reader = csv.reader(f_read, delimiter=';')
+        for row in reader:
+            rows.append(row)
+    return rows[1]
 
 
-def fun(n0, h, nk, a, b, c):
-    value = 0
-    for x in range(n0, nk, h):
-        value += a * (1 + (2 * x) / (np.exp(b * x) + c * c)) ** 0.5
-    return value
+def fun(begin, step, end, param_a, param_b, param_c):
+    data = [['x', 'y']]
+    total = 0
+    x = 0
+    while begin + x <= end:
+        y_x = param_a * (1 + (2 * x) / (np.exp(param_b * x) + param_c * param_c)) ** 0.5
+        total += y_x
+        value = [begin + x, y_x]
+        data.append(value)
+        x += step
+    value = ['total', total]
+    data.append(value)
+    return data
 
 
-def writeresult(value):
-    with open('results.csv', 'w') as fwrite:
-        fwrite.write(str(value))
-    return
+def writeresult(data):
+    with open('results.csv', 'w', newline='') as f_write:
+        writer = csv.writer(f_write, delimiter=';')
+        for i in range(len(data)):
+            writer.writerow(data[i])
 
 
-parameters = []
 if len(sys.argv) > 1:
     print(sys.argv)
     parameters = sys.argv[1:7]
@@ -38,6 +47,5 @@ n0, h, nk, a, b, c = int(parameters[0]), \
                      float(parameters[4]), \
                      float(parameters[5])
 
-y = fun(n0, h, nk, a, b, c)
-
-writeresult(y)
+values = fun(n0, h, nk, a, b, c)
+writeresult(values)
