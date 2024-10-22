@@ -1,0 +1,5 @@
+.venv
+
+.idea
+
+/first_lab_work/console args.txt
