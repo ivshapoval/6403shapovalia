@@ -11,7 +11,6 @@ setup(
     install_requires=[
         'pandas',
         'openpyxl',
-        'meteostat',
         'numpy'
     ],
     python_requires='>=3.10',
