@@ -1,0 +1,231 @@
+Вызов функции: __init__ с аргументами: (<module.functions.WeatherData object at 0x000002068392CA00>,    tavg
+0     1
+1     2
+2     3
+3     4
+4     5
+5     6
+6     7
+7     8
+8     9
+9    10) {}Результат: NoneВызов функции: autocorrelation с аргументами: (<module.functions.WeatherData object at 0x000002068392CA00>,) {}Вызов функции: __init__ с аргументами: (<module.functions.WeatherData object at 0x000002068392CC70>,    tavg
+0     1
+1     2
+2     3
+3     4
+4     5
+5     6
+6     7
+7     8
+8     9
+9    10) {}Результат: NoneВызов функции: moving_average с аргументами: (<module.functions.WeatherData object at 0x000002068392CC70>, 311) {}Результат: NoneВызов функции: calculate_difference с аргументами: (<module.functions.WeatherData object at 0x000002068392CC70>, 311) {}Результат: NoneВызов функции: __init__ с аргументами: (<module.functions.WeatherData object at 0x000002068392CCA0>,    tavg
+0     1
+1     2
+2     3
+3     4
+4     5
+5     6
+6     7
+7     8
+8     9
+9    10) {}Результат: NoneВызов функции: moving_average с аргументами: (<module.functions.WeatherData object at 0x000002068392CCA0>, 311) {}Результат: NoneВызов функции: find_extremal с аргументами: (<module.functions.WeatherData object at 0x000002068392CCA0>, 311) {}Результат: 0   NaN
+1   NaN
+2   NaN
+3   NaN
+4   NaN
+5   NaN
+6   NaN
+7   NaN
+8   NaN
+9   NaN
+Name: moving_average_311, dtype: float64Вызов функции: __init__ с аргументами: (<module.functions.WeatherData object at 0x000002068392E9B0>,    tavg
+0     1
+1     2
+2     3
+3     4
+4     5
+5     6
+6     7
+7     8
+8     9
+9    10) {}Результат: NoneВызов функции: get_data с аргументами: (<module.functions.WeatherData object at 0x000002068392E9B0>,) {}Результат:    tavg
+0     1
+1     2
+2     3
+3     4
+4     5
+5     6
+6     7
+7     8
+8     9
+9    10Вызов функции: __init__ с аргументами: (<module.functions.WeatherData object at 0x000002068392CCA0>,    tavg
+0     1
+1     2
+2     3
+3     4
+4     5
+5     6
+6     7
+7     8
+8     9
+9    10) {}Результат: NoneВызов функции: moving_average с аргументами: (<module.functions.WeatherData object at 0x000002068392CCA0>, 311) {}Результат: NoneВызов функции: __init__ с аргументами: (<module.functions.WeatherData object at 0x000001CF508550F0>,    tavg
+0     1
+1     2
+2     3
+3     4
+4     5
+5     6
+6     7
+7     8
+8     9
+9    10) {}Результат: NoneВызов функции: autocorrelation с аргументами: (<module.functions.WeatherData object at 0x000001CF508550F0>, 311) {}Результат: 1    NaN
+2    NaN
+3    NaN
+4    NaN
+5    NaN
+6    NaN
+7    NaN
+8    NaN
+9    NaN
+10   NaN
+dtype: float64Вызов функции: __init__ с аргументами: (<module.functions.WeatherData object at 0x000001CF50855150>,    tavg
+0     1
+1     2
+2     3
+3     4
+4     5
+5     6
+6     7
+7     8
+8     9
+9    10) {}Результат: NoneВызов функции: moving_average с аргументами: (<module.functions.WeatherData object at 0x000001CF50855150>, 311) {}Результат: NoneВызов функции: calculate_difference с аргументами: (<module.functions.WeatherData object at 0x000001CF50855150>, 311) {}Результат: NoneВызов функции: __init__ с аргументами: (<module.functions.WeatherData object at 0x000001CF50855F90>,    tavg
+0     1
+1     2
+2     3
+3     4
+4     5
+5     6
+6     7
+7     8
+8     9
+9    10) {}Результат: NoneВызов функции: moving_average с аргументами: (<module.functions.WeatherData object at 0x000001CF50855F90>, 311) {}Результат: NoneВызов функции: find_extremal с аргументами: (<module.functions.WeatherData object at 0x000001CF50855F90>, 311) {}Результат: 0   NaN
+1   NaN
+2   NaN
+3   NaN
+4   NaN
+5   NaN
+6   NaN
+7   NaN
+8   NaN
+9   NaN
+Name: moving_average_311, dtype: float64Вызов функции: __init__ с аргументами: (<module.functions.WeatherData object at 0x000001CF50855150>,    tavg
+0     1
+1     2
+2     3
+3     4
+4     5
+5     6
+6     7
+7     8
+8     9
+9    10) {}Результат: NoneВызов функции: get_data с аргументами: (<module.functions.WeatherData object at 0x000001CF50855150>,) {}Результат:    tavg
+0     1
+1     2
+2     3
+3     4
+4     5
+5     6
+6     7
+7     8
+8     9
+9    10Вызов функции: __init__ с аргументами: (<module.functions.WeatherData object at 0x000001CF508552A0>,    tavg
+0     1
+1     2
+2     3
+3     4
+4     5
+5     6
+6     7
+7     8
+8     9
+9    10) {}Результат: NoneВызов функции: moving_average с аргументами: (<module.functions.WeatherData object at 0x000001CF508552A0>, 311) {}Результат: NoneВызов функции: __init__ с аргументами: (<module.functions.WeatherData object at 0x00000248CEC0CA00>,    tavg
+0     1
+1     2
+2     3
+3     4
+4     5
+5     6
+6     7
+7     8
+8     9
+9    10) {}Результат: NoneВызов функции: autocorrelation с аргументами: (<module.functions.WeatherData object at 0x00000248CEC0CA00>, 311) {}Результат: 1    NaN
+2    NaN
+3    NaN
+4    NaN
+5    NaN
+6    NaN
+7    NaN
+8    NaN
+9    NaN
+10   NaN
+dtype: float64Вызов функции: __init__ с аргументами: (<module.functions.WeatherData object at 0x00000248CEC0CA60>,    tavg
+0     1
+1     2
+2     3
+3     4
+4     5
+5     6
+6     7
+7     8
+8     9
+9    10) {}Результат: NoneВызов функции: moving_average с аргументами: (<module.functions.WeatherData object at 0x00000248CEC0CA60>, 311) {}Результат: NoneВызов функции: calculate_difference с аргументами: (<module.functions.WeatherData object at 0x00000248CEC0CA60>, 311) {}Результат: NoneВызов функции: __init__ с аргументами: (<module.functions.WeatherData object at 0x00000248CEC0F460>,    tavg
+0     1
+1     2
+2     3
+3     4
+4     5
+5     6
+6     7
+7     8
+8     9
+9    10) {}Результат: NoneВызов функции: moving_average с аргументами: (<module.functions.WeatherData object at 0x00000248CEC0F460>, 311) {}Результат: NoneВызов функции: find_extremal с аргументами: (<module.functions.WeatherData object at 0x00000248CEC0F460>, 311) {}Результат: 0   NaN
+1   NaN
+2   NaN
+3   NaN
+4   NaN
+5   NaN
+6   NaN
+7   NaN
+8   NaN
+9   NaN
+Name: moving_average_311, dtype: float64Вызов функции: __init__ с аргументами: (<module.functions.WeatherData object at 0x00000248CEC0CA60>,    tavg
+0     1
+1     2
+2     3
+3     4
+4     5
+5     6
+6     7
+7     8
+8     9
+9    10) {}Результат: NoneВызов функции: get_data с аргументами: (<module.functions.WeatherData object at 0x00000248CEC0CA60>,) {}Результат:    tavg
+0     1
+1     2
+2     3
+3     4
+4     5
+5     6
+6     7
+7     8
+8     9
+9    10Вызов функции: __init__ с аргументами: (<module.functions.WeatherData object at 0x00000248CEC0CBB0>,    tavg
+0     1
+1     2
+2     3
+3     4
+4     5
+5     6
+6     7
+7     8
+8     9
+9    10) {}Результат: NoneВызов функции: moving_average с аргументами: (<module.functions.WeatherData object at 0x00000248CEC0CBB0>, 311) {}Результат: None

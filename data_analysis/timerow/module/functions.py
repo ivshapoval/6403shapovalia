@@ -81,6 +81,9 @@ class WeatherData:
     def autocorrelation(self, window: int) -> None:
         """
         Вычисляет автокорреляцию скользящего среднего
+
+        Аргументы:
+            int: window - размер окна для скользящего среднего в днях
         """
 
         autoc = f'autocorrelation{window}'
@@ -92,10 +95,7 @@ class WeatherData:
                 autocorr.append(float(self.data['tavg'].autocorr(lag)))
             else:
                 autocorr.append(nan)
-        # autocorr = pd.Series(autocorr, index=np.arange(1, max_lag + 1))
         self.data['autoc'] = autocorr
-        print(self.data)
-        print(type(autocorr[3]))
         return pd.Series(autocorr, index=np.arange(1, max_lag+2))
 
 

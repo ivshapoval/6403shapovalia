@@ -50,7 +50,7 @@ class TestWeatherData(unittest.TestCase):
         Сравнивает теоретическое значение и значение из реализованной функции
         '''
         
-        result = self.weather_data.autocorrelation()
+        result = self.weather_data.autocorrelation(311)
         expected_result = self.weather_data.data['tavg'].autocorr(1)
 
         self.assertTrue(result[1], expected_result)
