@@ -1,0 +1,10 @@
+2024-11-29 14:14:03,516 MainProcess realtime_service.monitoring_service WARNING  Monitoring stopped
+2024-11-29 14:14:03,526 MainProcess realtime_service.monitoring_service WARNING  Monitoring stopped
+2024-11-29 14:15:37,576 MainProcess realtime_service.monitoring_service WARNING  Monitoring stopped
+2024-11-29 14:15:37,578 MainProcess realtime_service.monitoring_service WARNING  Monitoring stopped
+2024-11-29 14:19:12,278 MainProcess realtime_service.monitoring_service WARNING  Monitoring stopped
+2024-11-29 14:19:12,288 MainProcess realtime_service.monitoring_service WARNING  Monitoring stopped
+2024-11-29 14:20:29,141 MainProcess realtime_service.monitoring_service WARNING  Monitoring stopped
+2024-11-29 14:20:29,142 MainProcess realtime_service.monitoring_service WARNING  Monitoring stopped
+2024-11-29 14:40:52,491 MainProcess realtime_service.monitoring_service WARNING  Thread error in monitoring: 'Series' object has no attribute 'analyze_the_trend'
+2024-11-29 14:42:14,965 MainProcess realtime_service.monitoring_service WARNING  Thread error in monitoring: type object 'WeatherData' has no attribute 'data'
